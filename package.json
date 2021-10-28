@@ -1,0 +1,16 @@
+{
+  "name": "@fusionstrings/dependencies",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "exports": {
+    ".": "./dist/mod.js",
+    "./jspm": "./dist/jspm.js"
+  },
+  "devDependencies": {
+    "@jspm/generator": "^1.0.0-beta.17",
+    "@jspm/plugin-rollup": "github:jspm/rollup-plugin-jspm",
+    "rollup": "^2.58.3"
+  },
+  "type": "module"
+}
