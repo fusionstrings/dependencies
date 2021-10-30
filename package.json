@@ -4,8 +4,16 @@
     "build": "rollup -c"
   },
   "exports": {
-    ".": "./dist/mod.js",
-    "./jspm": "./dist/jspm.js"
+    ".": {
+      "browser": "./dist/browser/mod.js",
+      "deno": "./dist/deno/mod.js",
+      "default": "./mod.js"
+    },
+    "./jspm": {
+      "browser": "./dist/browser/jspm.js",
+      "deno": "./dist/deno/jspm.js",
+      "default": "./jspm.js"
+    }
   },
   "devDependencies": {
     "@jspm/generator": "^1.0.0-beta.17",
