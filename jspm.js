@@ -1,1 +1,1 @@
-export {Generator, clearCache, fetch, getPackageConfig, lookup} from '@jspm/generator';
+export {Generator, clearCache, fetch, getPackageConfig, lookup, getPackageBase} from '@jspm/generator';
