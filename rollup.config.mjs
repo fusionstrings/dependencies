@@ -12,7 +12,7 @@ export default [{
 
             // Generator options as per @jspm/generator
             defaultProvider: 'jspm',
-            env: ["browser", "deno", "module", "development"],
+            env: ["browser", "deno", "module", "production"],
 
             // map of externals to aliased or true
             //externals: true
