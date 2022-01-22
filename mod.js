@@ -1,1 +1,9 @@
-export {Generator, clearCache, fetch, getPackageConfig, lookup, getPackageBase} from './jspm.js';
+export {
+  analyzeHtml,
+  clearCache,
+  fetch,
+  Generator,
+  getPackageBase,
+  getPackageConfig,
+  lookup,
+} from "./jspm.js";
