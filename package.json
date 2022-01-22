@@ -16,9 +16,9 @@
     }
   },
   "devDependencies": {
-    "@jspm/generator": "^1.0.0-beta.21",
+    "@jspm/generator": "^1.0.0-beta.22",
     "@jspm/plugin-rollup": "github:jspm/rollup-plugin-jspm",
-    "rollup": "^2.62.0"
+    "rollup": "^2.66.0"
   },
   "type": "module"
 }

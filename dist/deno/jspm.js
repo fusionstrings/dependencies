@@ -1,1 +1,1 @@
-export { G as Generator, c as clearCache, f as fetch, a as getPackageBase, g as getPackageConfig, l as lookup } from './generator-d103c722.js';
+export { G as Generator, a as analyzeHtml, c as clearCache, f as fetch, g as getPackageBase, b as getPackageConfig, l as lookup } from './generator-07b7c4b5.js';
